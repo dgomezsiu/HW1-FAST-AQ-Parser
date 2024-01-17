@@ -19,7 +19,6 @@ def transcribe(seq: str, reverse: bool = False) -> str:
     rna_seq = rna_seq.join(TRANSCRIPTION_MAPPING[nucleotide] for nucleotide in seq)
     return rna_seq
 
-print(transcribe("ACTGGTCAA"))
 
 
 def reverse_transcribe(seq: str) -> str:
