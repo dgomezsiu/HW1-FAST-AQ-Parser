@@ -1,5 +1,3 @@
-![](https://github.com/dgomezsiu/HW1-FAST-AQ-Parser/workflows/Project%20Tests/badge.svg)
-
 # Project 1
 Building a FAST[AQ] Parser + Building a DNA -> RNA Transcriber
 
