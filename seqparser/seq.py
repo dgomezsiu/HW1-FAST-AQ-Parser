@@ -27,4 +27,6 @@ def reverse_transcribe(seq: str) -> str:
     the sequence
     """
 
-    return transcribe(seq)[::1]
+    return transcribe(seq)[::-1]
+
+print(reverse_transcribe("ACTGGTCAA"))

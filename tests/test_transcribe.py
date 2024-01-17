@@ -38,6 +38,6 @@ def test_reverse_transcribe():
     """
 
     dna_seq = "ACTGGTCAA"
-    rev_transcribed = transcribe(dna_seq)
+    rev_transcribed = reverse_transcribe(dna_seq)
 
     assert rev_transcribed == "UUGACCAGU"
