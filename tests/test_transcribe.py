@@ -26,11 +26,10 @@ def test_transcribe():
     Write your unit test for the transcribe function here.
     """
 
-    #dna_seq = "ACTGGTCAA"
-   # transcribed = transcribe(dna_seq)
+    dna_seq = "ACTGGTCAA"
+    transcribed = transcribe(dna_seq)
 
-   # assert transcribed == "TGACCAGTT"
-   pass
+    assert transcribed == "UGACCAGUU"
 
 
 def test_reverse_transcribe():
@@ -38,8 +37,7 @@ def test_reverse_transcribe():
     Write your unit test for the reverse transcribe function here.
     """
 
-  #  dna_seq = "ACTGGTCAA"
-   # rev_transcribed = transcribe(dna_seq)
+    dna_seq = "ACTGGTCAA"
+    rev_transcribed = transcribe(dna_seq)
 
-    #assert rev_transcribed == "TTGACCAGT"
-    pass
+    assert rev_transcribed == "UUGACCAGU"
