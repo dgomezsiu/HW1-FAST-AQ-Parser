@@ -1,6 +1,5 @@
 # write tests for parsers
 
-
 from seqparser import (
         FastaParser,
         FastqParser)
